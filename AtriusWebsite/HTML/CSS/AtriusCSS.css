@@ -1,0 +1,78 @@
+*
+{
+	color:white;
+}
+
+@keyframes GistColor {
+    from {background-color: white;}
+    to {background-color: #000033;}
+}
+@keyframes WordsColor {
+    from {color: #000033;}
+    to {color: white;}
+}
+
+h1
+{
+	padding-bottom:20px;
+	padding-top:0;
+	margin-top:0;
+	height:50px;
+	border-bottom:5px solid #4d004d;
+	font-size:50px;	
+	animation-name:GistColor, WordsColor;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+body
+{
+	font-family:Garamond-Normal;
+	background:  #000033;
+}
+#LeftMenu
+{
+	float:left;
+	display:block;
+	font-size:20px;
+	border: 5px solid #4d004d;
+	width:250px;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+nav.ItemList li
+{
+	border-bottom: 2px solid white;
+
+}
+nav a{
+	text-decoration:none;
+}
+li
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:3px;
+}
+#MiddleContent
+{
+	float:right;
+	display: block;
+	margin-right: 40px;
+	background-color:black;
+	border: 5px solid #4d004d;
+	width:750px;
+	height:600px;
+}
+#RightQuotes
+{
+	padding-left:10px;
+	padding-right:10px;
+	float:right;
+	display:block;
+	font-size:20px;
+	border: 5px solid #4d004d;
+	width:200px;
+	height:730px;
+}
